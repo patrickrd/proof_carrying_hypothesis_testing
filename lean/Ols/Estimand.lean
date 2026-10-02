@@ -2,6 +2,7 @@
 Copyright (c) 2026 Patrick Rubin-Delanchy. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Patrick Rubin-Delanchy, Andrew Jones
+AI-generated (see the top-level README); not audited by the authors.
 -/
 import Mathlib
 import Ols.Optimality
