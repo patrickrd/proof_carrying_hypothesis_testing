@@ -1,9 +1,8 @@
-# Proof-carrying hypothesis testing: paper, code and materials
+# Proof-carrying hypothesis testing: code and materials
 
-Paper: Rubin-Delanchy and Jones, "Proof-carrying hypothesis testing: certified statistical inference by AI" (submitted to arXiv on 25 September 2026). Written by humans, except where indicated (see AI use statement).
+The base of this code is the public release at lean-statistics/linear-model-lean of 31 July, which is fully human-audited. Everything here is AI-generated, not human-audited, and is made public only for reproducibility purposes. When fully audited, the code will be transferred to lean-statistics.
 
-The base of this code is the public release at lean-statistics/linear-model-lean of 31 July, which is fully human-audited. The additional code published here is AI-generated, not human-audited, and is made public only for reproducibility purposes. When fully audited, the code will be transferred to lean-statistics.
-
+Paper: Rubin-Delanchy and Jones, "Proof-carrying hypothesis testing: certified statistical inference by AI" (submitted to arXiv on 25 September 2026).
 
 ## Contents
 - `PCHT.pdf`: the paper.

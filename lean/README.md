@@ -18,7 +18,7 @@ This work is part of a wider research question of how to make Statistics perform
 
 - We have implemented a model-robust theory (also known as assumption-lean), in which the linear model is not assumed to hold: an assumption which is hard to verify, especially automatically.
 - The theory is structured to highlight clear points of contact with the data, to support model-checking and sensitivity analysis.
-- Complete machine-checked proofs: No sorries, axioms or other gaps.
+- Complete machine-checked proofs: No sorries, axioms or other gaps in the public release (lean-statistics/linear-model-lean). The files added in this repository are AI-generated and unaudited (see the top-level README) and contain one `sorry`, in `Clt/BerryEsseen.lean`.
 
 ## Project status
 Inference is asymptotically valid (coverage at least nominal) under heteroscedasticity and misspecification, and exact under correct specification. A positive interpretation of this result is that the *worst case scenario* for coverage is a *correctly specified model*. 
@@ -108,11 +108,11 @@ This expects the Lean toolchain pinned in `lean-toolchain` (currently `leanprove
 
 ## Responsible use and limitations
 
-This is a research artefact. It has not been validated for clinical, legal, financial, or policy decisions. The proofs are machine-checked and depend only on Lean's three standard axioms (`propext`, `Classical.choice`, `Quot.sound`), with no sorries. Correctness nonetheless rests on the theorem statements faithfully capturing the intended mathematics, and on trust in Lean's kernel and the Mathlib library.
+This is a research artefact. It has not been validated for clinical, legal, financial, or policy decisions. The proofs are machine-checked and depend only on Lean's three standard axioms (`propext`, `Classical.choice`, `Quot.sound`), with no sorries in the public release; the files added here contain one `sorry` (`Clt/BerryEsseen.lean`). Correctness nonetheless rests on the theorem statements faithfully capturing the intended mathematics, and on trust in Lean's kernel and the Mathlib library.
 
 ## Use of AI
 
-Parts of this formalisation were developed with the assistance of AI tools, principally Claude (Opus). All definitions, theorem statements, and proofs were reviewed by the authors, who are responsible for the correctness of the work. Our use of AI is obviously consistent with the wider research question of how to make Statistics performed by AI somehow trustworthy.
+Parts of this formalisation were developed with the assistance of AI tools, principally Claude (Opus). In the public release, all definitions, theorem statements, and proofs were reviewed by the authors, who are responsible for the correctness of the work. The files added in this repository have not been audited. Our use of AI is obviously consistent with the wider research question of how to make Statistics performed by AI somehow trustworthy.
 
 ## Citing this work
 
