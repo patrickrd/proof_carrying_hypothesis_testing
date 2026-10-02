@@ -1,0 +1,3 @@
+dataset,n,t0,mode,init,p,lower95,nexc,B,feas,maxT,m3,m4,maxr,secs
+ReinhartRogoff,1175,5.56531556145529,0,skew,4.0000e-06,7.1072e-07,2,500000,True,6.02,1.596,3.000,0.000,880
+ReinhartRogoff,1175,5.56531556145529,0,zi,8.0000e-06,2.7326e-06,4,500000,True,6.28,1.596,3.000,0.000,1716
